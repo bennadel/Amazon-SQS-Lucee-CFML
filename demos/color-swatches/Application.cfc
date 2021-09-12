@@ -36,7 +36,7 @@ component
 			accessID = config.aws.accessID,
 			secretKey = config.aws.secretKey,
 			region = config.aws.region,
-			queueName = config.aws.queue, // This instance if QUEUE SPECIFIC.
+			queueName = config.aws.queue, // This component instance if QUEUE SPECIFIC.
 			defaultWaitTime = 20,
 			defaultVisibilityTimeout = 60
 		);
