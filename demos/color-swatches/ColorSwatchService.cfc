@@ -8,8 +8,8 @@ component
 	*/
 	public void function init() {
 
-		variables.swatchWidth = 300;
-		variables.swatchHeight = 250;
+		variables.swatchWidth = 200;
+		variables.swatchHeight = 150;
 
 	}
 
