@@ -1,0 +1,40 @@
+
+body {
+	font-family: sans-serif ;
+}
+
+form {
+	margin: 20px 0px 20px 0px ;
+}
+
+input, button {
+	font-size: 26px ;
+	padding: 5px 10px 5px 10px ;
+}
+
+input {
+	text-transform: uppercase ;
+}
+
+input::placeholder {
+	text-transform: none ;
+}
+
+ul {
+	display: flex ;
+	flex-wrap: wrap ;
+	list-style-type: none ;
+	margin: 20px 0px 20px 0px ;
+	padding: 0px 0px 0px 0px ;
+}
+
+ul li {
+	margin: 5px 5px 5px 5px ;
+}
+
+ul img {
+	border: 1px solid #333333 ;
+	border-radius: 3px 3px 3px 3px ;
+	display: block ;
+	width: 300px ;
+}
