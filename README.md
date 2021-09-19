@@ -1,6 +1,8 @@
 
 # Producing And Consuming Amazon SQS Messages In Lucee CFML 5.3.8.201
 
+by [Ben Nadel][ben-nadel]
+
 Just some experimentation with the Amazon SQS (Simple Queue Service) using the Java SDK in Lucee CFML 5.3.8.201.
 
 ## Running Lucee CFML Locally
@@ -20,3 +22,7 @@ cfconfig import ./.cfconfig.json
 ```
 
 Each of my explorations has its own queue. The Amazon Access ID, Secret Key, and Queue Name are stored in `config.json` files; however, those are not committed to the repository for security reasons. There are, however, `config.template.json` files to see the expected data structure.
+
+[ben-nadel]: https://www.bennadel.com/
+
+[command-box]: https://www.ortussolutions.com/products/commandbox
