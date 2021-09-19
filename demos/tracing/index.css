@@ -1,0 +1,17 @@
+
+body {
+	font-family: sans-serif ;
+}
+
+form {
+	margin: 20px 0px 20px 0px ;
+}
+
+input, button {
+	font-size: 20px ;
+	padding: 5px 10px 5px 10px ;
+}
+
+input::placeholder {
+	text-transform: none ;
+}
